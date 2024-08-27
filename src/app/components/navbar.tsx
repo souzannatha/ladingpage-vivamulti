@@ -25,7 +25,7 @@ export function Navbar() {
         </a>
       </div>
       <div className="flex gap-3">
-        <Button variant="outline">Quero ser Parceiro</Button>
+        <Button variant="outline"> Quero ser Parceiro</Button>
         <Button variant="primary">Quero meu Multi</Button>
       </div>
     </nav>

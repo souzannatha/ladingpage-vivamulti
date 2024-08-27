@@ -11,8 +11,10 @@ export function Button({
   ...rest
 }: ButtonProps) {
   const variantClasses = {
-    outline: "text-white border py-5 px-7 rounded-xl font-semibold",
-    primary: "text-indigo-600 font-bold bg-white border py-5 px-7 rounded-xl",
+    outline:
+      "text-white border-2 py-5 px-7 rounded-xl font-semibold hover:bg-white hover:text-blueCustom-blue01 hover:border-indigo-600",
+    primary:
+      "text-blueCustom-blue01 font-bold bg-white border py-5 px-7 rounded-xl hover:bg-blueCustom-blue01 hover:text-white hover:border-indigo-600",
     secondary:
       "py-6 px-[120px] font-semibold text-xl bg-transparent text-white",
   };

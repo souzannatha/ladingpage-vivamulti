@@ -8,7 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        blueCustom: {
+          blue01: "#522AF9",
+          blue02: "#73CBD9",
+          blue03: "#250A94",
+          blue04: "#E8E8FF",
+          blue05: "#8F8FCD",
+          blueBlack: "#7F77A0",
+        },
+      },
     },
   },
   plugins: [],

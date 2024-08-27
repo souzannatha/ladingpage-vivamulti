@@ -7,7 +7,7 @@ interface HeaderProps {
 export default function Header({ children }: HeaderProps) {
   return (
     <div
-      className="bg-cover bg-center h-[992px]"
+      className="bg-cover bg-center h-[992px] w-full"
       style={{ backgroundImage: "url('/background-header.svg')" }}
     >
       {children}
