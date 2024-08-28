@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { HeaderSection } from "./header-section";
 
 interface HeaderProps {
   children: ReactNode;
@@ -11,6 +12,7 @@ export default function Header({ children }: HeaderProps) {
       style={{ backgroundImage: "url('/background-header.svg')" }}
     >
       {children}
+      <HeaderSection />
     </div>
   );
 }
