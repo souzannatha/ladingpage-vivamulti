@@ -1,7 +1,9 @@
+import { BenefitsSession } from "./components/benefits";
+
 export default function Home() {
   return (
     <main>
-      <h2>Home</h2>
+      <BenefitsSession />
     </main>
   );
 }

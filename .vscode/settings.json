@@ -1,0 +1,10 @@
+{
+  "editor.minimap.autohide": false,
+  "window.density.editorTabHeight": "default",
+  "breadcrumbs.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.indentation": true,
+  "editor.detectIndentation": true
+}

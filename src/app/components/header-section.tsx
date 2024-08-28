@@ -30,7 +30,7 @@ export function HeaderSection() {
           <div className="ml-3">
             <p className="text-blueCustom-blue01">Cadastre-se agora</p>
             <p className="text-blueCustom-blue01 text-lg font-bold">
-              e seja o primeiro a saber
+              e seja o primeiro a saber!
             </p>
           </div>
         </div>
