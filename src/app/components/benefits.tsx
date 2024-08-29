@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { SlidesBenefits } from "./slides-benefits";
+import { BenefitsCard } from "./benefits-card";
 
 export function BenefitsSession() {
   return (
@@ -13,6 +14,32 @@ export function BenefitsSession() {
         </h2>
         <div className="mt-6">
           <SlidesBenefits />
+          <div className=" flex justify-between mt-9">
+            <BenefitsCard
+              imageSrc="/icons-person.svg"
+              altText="ícone de pessoa"
+              title="Atendimento Humanizado"
+              description="Receba atendimento personalizado e acolhedor, sempre."
+            />
+            <BenefitsCard
+              imageSrc="/icon-plans.svg"
+              altText="ícone plano"
+              title="Planos Acessíveis"
+              description="Escolha entre planos gratuitos e premium, a partir de R$0,19 por dia."
+            />
+            <BenefitsCard
+              imageSrc="/icon-networking.svg"
+              altText="ícone plano"
+              title="Rede Credenciada"
+              description="Acesse uma ampla rede de clínicas, hospitais e especialistas."
+            />
+            <BenefitsCard
+              imageSrc="/icon-percent.svg"
+              altText="ícone plano"
+              title="Descontos Exclusivos"
+              description="Aproveite descontos em exames, consultas e medicamentos."
+            />
+          </div>
         </div>
       </div>
       <div className="flex flex-col items-center mt-28 mr-44">

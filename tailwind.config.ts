@@ -14,7 +14,7 @@ const config: Config = {
           blue02: "#73CBD9",
           blue03: "#250A94",
           blue04: "#E8E8FF",
-          blue05: "#8F8FCD",
+          blue05: "#51477D",
           blueBlack: "#7F77A0",
         },
       },
