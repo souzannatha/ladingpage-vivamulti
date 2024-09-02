@@ -12,3 +12,18 @@ html,
 body {
   overflow-x: hidden;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(-100% / 2 - 20px)
+    ); /* Ajuste o cálculo para levar em conta o gap e o comprimento total */
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}

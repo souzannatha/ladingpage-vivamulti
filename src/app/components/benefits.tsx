@@ -14,7 +14,7 @@ export function BenefitsSession() {
         </h2>
         <div className="mt-6">
           <SlidesBenefits />
-          <div className=" flex justify-between mt-9">
+          <div className=" flex justify-between mt-9 ">
             <BenefitsCard
               imageSrc="/icons-person.svg"
               altText="ícone de pessoa"
