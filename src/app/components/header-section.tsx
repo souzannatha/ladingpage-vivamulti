@@ -42,7 +42,7 @@ export function HeaderSection() {
               width={20}
               height={20}
             />
-            <p className="text-blueCustom-blue05 uppercase ">
+            <p className="text-blueCustom-blue04 uppercase ">
               Continue Explorando
             </p>
           </div>

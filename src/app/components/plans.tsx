@@ -1,10 +1,11 @@
 import Image from "next/image";
-import { PlansCard } from "./plans-card";
+import { PlansCardIndividual } from "./plans-individual";
+import { PlansCardFamily } from "./plans-family";
 
 export function Plans() {
   return (
     <div
-      className="w-full h-[1050px] bg-blueCustom-blue01 flex items-start" // Adicione flex e items-start
+      className="w-full h-[1050px] bg-blueCustom-blue01 flex items-start"
       style={{
         backgroundImage: 'url("/bg-plans.svg")',
         backgroundSize: "cover",
@@ -20,8 +21,8 @@ export function Plans() {
         <div className="flex flex-row ">
           <Image src="/mulher-1.svg" width={560} height={626} alt="mulher" />
           <div className="flex ml-5 gap-6">
-            <PlansCard />
-            <PlansCard />
+            <PlansCardFamily />
+            <PlansCardIndividual />
           </div>
         </div>
       </div>
