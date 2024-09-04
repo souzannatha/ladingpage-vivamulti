@@ -18,9 +18,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(
-      calc(-100% / 2 - 20px)
-    ); /* Ajuste o cálculo para levar em conta o gap e o comprimento total */
+    transform: translateX(calc(-100% / 2 - 20px));
   }
 }
 
