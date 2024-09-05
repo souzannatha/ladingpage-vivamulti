@@ -19,6 +19,11 @@ const config: Config = {
           blueBlack: "#7F77A0",
         },
       },
+      screens: {
+        tablet: "640px",
+        laptop: "1024px",
+        desktop: "1360px",
+      },
     },
   },
   plugins: [],
