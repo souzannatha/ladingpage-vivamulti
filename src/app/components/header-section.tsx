@@ -60,17 +60,17 @@ export function HeaderSection() {
           <Image
             src="/symbol-header.svg"
             alt="Imagem de saúde"
-            width={900}
-            height={900}
-            className="absolute bottom-[390px] left-48 object-cover mobile:relative mobile:w-[600px] mobile:h-[530px] mobile:-left-3 mobile:-bottom-[110px]"
+            width={1000}
+            height={1000}
+            className="absolute bottom-[200px] left-48 object-cover mobile:relative mobile:w-[600px] mobile:h-[530px] mobile:-left-3 mobile:-bottom-[110px]"
           />
           {/* Imagem da família por cima */}
           <Image
             src="/family-header.svg"
             alt="Imagem de saúde"
-            width={900}
-            height={500}
-            className="relative object-cover bottom-[162px] left-40 mobile:bottom-0 mobile:w-[430px] mobile:h-[475px] mobile:left-0 mobile:-top-[367px]"
+            width={613}
+            height={800}
+            className="relative object-cover bottom-[27px] left-40 mobile:bottom-0 mobile:w-[430px] mobile:h-[475px] mobile:left-0 mobile:-top-[367px]"
           />
         </div>
       </div>
