@@ -3,22 +3,19 @@ import { Button } from "./button";
 
 export function FaqSection() {
   return (
-    <section className="flex items-center w-[1544px] h-[750px] mx-auto my-auto">
-      <div className="w-[300px] mb-20 mt-24">
-        <p className="font-medium text-xl text-blueCustom-blue05">FAQ</p>
-        <h2 className="font-bold text-[52px] text-blueCustom-blue01">
+    <section className="flex flex-col mobile:flex-col mobile:items-center w-[1544px] h-[750px] mx-auto my-auto mobile:w-[415px] mobile:h-auto">
+      {/* 1 - FAQ e Dúvidas Frequentes */}
+      <div className="w-[250px] mb-20 mt-24 mobile:mt-5 mobile:order-1 mobile:-ml-28">
+        <p className="font-medium text-xl text-blueCustom-blue05 mobile:text-sm">
+          FAQ
+        </p>
+        <h2 className="font-bold text-[52px] text-blueCustom-blue01 mobile:text-3xl">
           Dúvidas frequentes
         </h2>
-        <h2 className="mt-9 mb-3 font-semibold text-2xl text-blueCustom-blue05">
-          Ainda tem dúvidas? Vamos conversar.
-        </h2>
-        <p className="font-medium text-lg text-blueCustom-blue05 mb-24">
-          Se você tem alguma dúvida, sugestão ou até mesmo uma reclamação, entre
-          em contato. Queremos te ouvir.
-        </p>
-        <Button variant="primary">Mandar Mensagem</Button>
       </div>
-      <div className="ml-16 flex flex-col justify-center">
+
+      {/* 2 - Accordion List */}
+      <div className="ml-16 flex flex-col justify-center mobile:ml-0 mobile:w-full mobile:order-2">
         <AccordionList
           isFirst
           title="O que é o Viva Multi + Saúde?"
@@ -40,6 +37,18 @@ export function FaqSection() {
           title="Posso usar o cartão imediatamente após a adesão?"
           answer="Após a confirmação da adesão e processamento do seu pagamento, você receberá uma confirmação que permite começar a usar o cartão Viva Multi + Saúde imediatamente em nossa rede credenciada."
         />
+      </div>
+
+      {/* 3 - "Ainda tem dúvidas? Vamos conversar" */}
+      <div className="w-[300px] mb-20 mt-24 mobile:mt-12 mobile:order-3 mobile:text-center mobile:flex mobile:flex-col mobile:items-center">
+        <h2 className="mt-9 mb-3 font-semibold text-2xl text-blueCustom-blue05 mobile:text-lg">
+          Ainda tem dúvidas? Vamos conversar.
+        </h2>
+        <p className="font-medium text-lg text-blueCustom-blue05 mb-24 mobile:text-base">
+          Se você tem alguma dúvida, sugestão ou até mesmo uma reclamação, entre
+          em contato. Queremos te ouvir.
+        </p>
+        <Button variant="primary">Mandar Mensagem</Button>
       </div>
     </section>
   );
