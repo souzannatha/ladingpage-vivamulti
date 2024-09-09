@@ -5,10 +5,9 @@ import { CardDownload } from "./card-download";
 
 export function Footer() {
   return (
-    <footer className="mt-40 text-white py-8">
+    <footer className="mt-40 text-white py-8 mobile:mt-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
-          {/* Coluna 1: Logo e Descrição */}
           <div className="w-64 h-36">
             <Image
               src="/logo2.svg"
@@ -22,9 +21,7 @@ export function Footer() {
               para fazer consultas, exames e outros procedimentos.
             </p>
           </div>
-
-          {/* Coluna 2: Links Rápidos */}
-          <div className="w-full md:w-1/4 mb-6">
+          <div className="w-full md:w-1/4 mb-6 mobile:mt-40">
             <h3 className="text-2xl font-semibold mb-4 text-blueCustom-blue01">
               Institucional
             </h3>
@@ -51,8 +48,6 @@ export function Footer() {
               </li>
             </ul>
           </div>
-
-          {/* Coluna 3: Contato */}
           <div className="w-full md:w-1/4 mb-6">
             <h3 className="text-2xl font-semibold mb-4 text-blueCustom-blue01">
               Atendimento
@@ -102,8 +97,6 @@ export function Footer() {
               />
             </div>
           </div>
-
-          {/* Coluna 4: Redes Sociais */}
           <div className="w-full md:w-1/4 mb-6">
             <h3 className="text-2xl font-semibold mb-4 text-blueCustom-blue01">
               Baixe o nosso APP
