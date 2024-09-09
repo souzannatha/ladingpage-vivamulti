@@ -4,41 +4,49 @@ import { BenefitsCard } from "./benefits-card";
 
 export function BenefitsSession() {
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-start mt-[100px]">
-      <div className="ml-36 mb-8 lg:mb-0">
-        <h3 className="text-blueCustom-blue05 font-medium text-xl">
+    <section className="flex flex-col justify-between items-start mt-[100px] mobile:mt-20">
+      <div className="ml-36 mb-8  mobile:ml-8 mobile:w-80 mobile:h-16">
+        <h3 className="text-blueCustom-blue05 font-medium text-xl mobile:text-sm">
           Benefícios Exclusivos
         </h3>
-        <h2 className="text-blueCustom-blue01 font-bold text-[52px]">
+        <h2 className="text-blueCustom-blue01 font-bold text-[52px] mobile:text-3xl">
           Por que escolher <br />o Cartão Viva Multi
         </h2>
-        <div className="mt-6">
+        <div className="mt-6 mobile:mt-14">
           <SlidesBenefits />
-          <div className=" flex justify-between mt-9 ">
-            <BenefitsCard
-              imageSrc="/icons-person.svg"
-              altText="ícone de pessoa"
-              title="Atendimento Humanizado"
-              description="Receba atendimento personalizado e acolhedor, sempre."
-            />
-            <BenefitsCard
-              imageSrc="/icon-plans.svg"
-              altText="ícone plano"
-              title="Planos Acessíveis"
-              description="Escolha entre planos gratuitos e premium, a partir de R$0,19 por dia."
-            />
-            <BenefitsCard
-              imageSrc="/icon-networking.svg"
-              altText="ícone plano"
-              title="Rede Credenciada"
-              description="Acesse uma ampla rede de clínicas, hospitais e especialistas."
-            />
-            <BenefitsCard
-              imageSrc="/icon-percent.svg"
-              altText="ícone plano"
-              title="Descontos Exclusivos"
-              description="Aproveite descontos em exames, consultas e medicamentos."
-            />
+          <div className="flex overflow-x-auto space-x-4 mt-9 mobile:gap-4 mobile:scrollbar-hideen">
+            <div>
+              <BenefitsCard
+                imageSrc="/icons-person.svg"
+                altText="ícone de pessoa"
+                title="Atendimento Humanizado"
+                description="Receba atendimento personalizado e acolhedor, sempre."
+              />
+            </div>
+            <div>
+              <BenefitsCard
+                imageSrc="/icon-plans.svg"
+                altText="ícone plano"
+                title="Planos Acessíveis"
+                description="Escolha entre planos gratuitos e premium, a partir de R$0,19 por dia."
+              />
+            </div>
+            <div>
+              <BenefitsCard
+                imageSrc="/icon-networking.svg"
+                altText="ícone plano"
+                title="Rede Credenciada"
+                description="Acesse uma ampla rede de clínicas, hospitais e especialistas."
+              />
+            </div>
+            <div>
+              <BenefitsCard
+                imageSrc="/icon-percent.svg"
+                altText="ícone plano"
+                title="Descontos Exclusivos"
+                description="Aproveite descontos em exames, consultas e medicamentos."
+              />
+            </div>
           </div>
         </div>
       </div>

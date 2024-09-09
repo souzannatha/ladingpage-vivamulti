@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function SlidesBenefits() {
   return (
-    <div className="relative flex justify-center items-center gap-2">
+    <div className="relative flex justify-center items-center gap-2 mobile:gap-3">
       <Image
         src="/Rectangle 370.svg"
         alt="imagens de médicos"
@@ -29,7 +29,7 @@ export function SlidesBenefits() {
         alt="imagens de médicos"
         width={100}
         height={100}
-        className="absolute right-[265px] top- flex-1"
+        className="absolute right-[220px] top-[250px] flex-1 mobile:-right-[40px] mobile:-top-12"
       />
     </div>
   );
