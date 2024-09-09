@@ -21,14 +21,14 @@ export function CardDownload({
           : "bg-white border border-blueCustom-blue04"
       } w-[180px] h-[60px] px-4 py-3 mt-8 rounded-lg ${
         !isPrimary ? "text-blueCustom-blue06" : "text-white"
-      }`}
+      } mobile:w-[130px] mobile:h-[43px] mobile:px-2 mobile:py-2`}
     >
       <Image
         src={iconSrc}
         width={23}
         height={28}
         alt={`ícone ${platformName}`}
-        className="mr-4"
+        className="mr-4 mobile:mr-2"
       />
       <div className="flex flex-col justify-center">
         <span
@@ -41,7 +41,7 @@ export function CardDownload({
         <p
           className={`text-base font-semibold ${
             isPrimary ? "text-white" : "text-blueCustom-blue06"
-          }`}
+          } mobile:text-sm`}
         >
           {platformName}
         </p>

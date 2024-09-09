@@ -13,7 +13,8 @@ export function PlansCardIndividual() {
         </h3>
         <p className="mt-5 text-2xl text-blueCustom-blueBlack mobile:text-base">
           A partir de <span className="font-bold">R$0,49</span> por dia.
-          Consultas a <span className="font-bold">R$59,90</span>,<br />,
+          Consultas a <span className="font-bold">R$59,90</span>
+          <br />
           <span className="font-bold">concierge 24h</span> teleconsultas e muito
           mais.
         </p>
