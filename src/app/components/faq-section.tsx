@@ -44,7 +44,9 @@ export function FaqSection() {
           em contato. Queremos te ouvir.
         </p>
         <div className="flex justify-center lg:justify-start  lg:flex">
-          <Button variant="primary">Mandar Mensagem</Button>
+          <a href="https://api.whatsapp.com/send?phone=554337721333">
+            <Button variant="primary">(43) 3772-1333</Button>
+          </a>
         </div>
       </div>
       <div className="w-full lg:w-auto lg:ml-16 flex flex-col lg:flex-col justify-center lg:order-3 order-2">

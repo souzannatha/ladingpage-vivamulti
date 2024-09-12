@@ -12,11 +12,18 @@ export function SectionDownload() {
           <span className="font-bold">benefícios do Cartão Viva Multi!</span>
         </h2>
         <div className="flex items-center gap-4 mt-3">
-          <CardDownload iconSrc="/icon-apple.svg" platformName="Apple Store" />
-          <CardDownload
-            iconSrc="/icon-playstore.svg"
-            platformName="Google Play"
-          />
+          <a href="https://apps.apple.com/br/app/cart%C3%A3o-viva-multi/id6479454545">
+            <CardDownload
+              iconSrc="/icon-apple.svg"
+              platformName="Apple Store"
+            />
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.app.vivamultisaude&hl=pt&gl=US">
+            <CardDownload
+              iconSrc="/icon-playstore.svg"
+              platformName="Google Play"
+            />
+          </a>
         </div>
       </div>
 
@@ -36,7 +43,6 @@ export function SectionDownload() {
           alt="imagem do celular"
           className="relative z-10 mobile:w-[350px] mobile:h-[450px] mobile:-top-24"
         />
-        250px
       </div>
     </div>
   );

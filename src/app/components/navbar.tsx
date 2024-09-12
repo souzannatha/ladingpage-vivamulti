@@ -9,12 +9,11 @@ export function Navbar() {
           className="block"
           src="/logo-vivamulti.svg"
           alt="logo da Viva Multi"
-          width={150} // Ajustar largura da logo no mobile
+          width={150}
           height={40}
         />
       </div>
 
-      {/* Menu Hamburger */}
       <div className="md:hidden">
         <button id="menu-toggle">
           <svg
@@ -34,7 +33,6 @@ export function Navbar() {
         </button>
       </div>
 
-      {/* Menu de navegação */}
       <div className="hidden md:flex gap-6">
         <a href="#" className="text-white font-semibold">
           Quem somos
@@ -49,8 +47,12 @@ export function Navbar() {
 
       {/* Botões no desktop */}
       <div className="hidden md:flex gap-3">
-        <Button variant="outline">Quero ser Parceiro</Button>
-        <Button variant="primary">Quero meu Multi</Button>
+        <a href="https://api.whatsapp.com/send?phone=554337721333">
+          <Button variant="outline">Quero ser Parceiro</Button>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=554337721333">
+          <Button variant="primary">Quero meu cartão</Button>
+        </a>
       </div>
     </nav>
   );

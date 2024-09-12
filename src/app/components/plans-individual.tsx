@@ -20,7 +20,9 @@ export function PlansCardIndividual() {
         </p>
       </div>
       <div className="flex justify-center mt-4">
-        <Button variant="primary">Assinar agora</Button>
+        <a href="https://api.whatsapp.com/send?phone=554337721333">
+          <Button variant="primary">Assinar agora</Button>
+        </a>
       </div>
     </div>
   );

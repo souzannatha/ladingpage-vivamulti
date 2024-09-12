@@ -74,7 +74,9 @@ export function FinalCall() {
           <h2 className="font-bold text-[52px] text-blueCustom-blue01 w-[750px] mb-9">
             Prepare-se para uma nova experiência em saúde!
           </h2>
-          <Button variant="primary">Quero me cadastrar</Button>
+          <a href="https://api.whatsapp.com/send?phone=554337721333">
+            <Button variant="primary">Quero me cadastrar</Button>
+          </a>
         </div>
         <div className="flex-1 -mr-16">
           <Image

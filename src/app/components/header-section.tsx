@@ -29,7 +29,7 @@ export function HeaderSection() {
                 alt="Ícone de seta"
                 width={25}
                 height={25}
-                className="mobile: w-[18px] h-[18px]"
+                className="mobile:w-[18px] h-[18px]"
               />
               <div className="ml-3">
                 <p className="text-blueCustom-blue01">Cadastre-se agora</p>
@@ -75,15 +75,17 @@ export function HeaderSection() {
         </div>
       </div>
 
-      {/* Ícone de WhatsApp */}
-      <div className="absolute inset-0 flex justify-end">
-        <Image
-          className="block mr-32 mt-96  mobile:relative mobile:top-[270px] left-[120px]"
-          src="/icon-wpp.svg"
-          alt="Ícone de Whatsapp"
-          width={60}
-          height={60}
-        />
+      {/* Ícone de WhatsApp flutuante */}
+      <div className="fixed bottom-[60px] right-[60px] mobile:right-4 mobile:bottom-4">
+        <a href="https://api.whatsapp.com/send?phone=554337721333">
+          <Image
+            src="/icon-wpp.svg"
+            alt="Ícone de Whatsapp"
+            width={60}
+            height={60}
+            className="hover:scale-105 transition-transform"
+          />
+        </a>
       </div>
     </section>
   );

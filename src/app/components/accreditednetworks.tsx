@@ -3,9 +3,9 @@ import Carousel from "./carousel";
 
 const images = [
   "/icon-alphasonic.svg",
-  "/icon-ultramed.svg",
-  "/icon-labimagem.svg",
   "/icon-hospital.svg",
+  "/icon-alphasonic.svg",
+  "icon-ultramed.svg",
 ];
 
 export function AccreditedNetworks() {

@@ -77,24 +77,30 @@ export function Footer() {
               </p>
             </div>
             <div className="flex gap-5">
-              <Image
-                src="/icon-instagram.svg"
-                alt="Instagram Icon"
-                width={40}
-                height={40}
-              />
-              <Image
-                src="/icon-linkedin.svg"
-                alt="LinkedIn Icon"
-                width={40}
-                height={40}
-              />
-              <Image
-                src="/icon-facebook.svg"
-                alt="Facebook Icon"
-                width={40}
-                height={40}
-              />
+              <a href="https://www.instagram.com/cartaovivamulti/">
+                <Image
+                  src="/icon-instagram.svg"
+                  alt="Instagram Icon"
+                  width={40}
+                  height={40}
+                />
+              </a>
+              <a href="https://www.linkedin.com/company/cart%C3%A3o-viva-multi/mycompany/">
+                <Image
+                  src="/icon-linkedin.svg"
+                  alt="LinkedIn Icon"
+                  width={40}
+                  height={40}
+                />
+              </a>
+              <a href="">
+                <Image
+                  src="/icon-facebook.svg"
+                  alt="Facebook Icon"
+                  width={40}
+                  height={40}
+                />
+              </a>
             </div>
           </div>
           <div className="w-full md:w-1/4 mb-6">
